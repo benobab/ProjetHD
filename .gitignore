@@ -1,6 +1,2 @@
-
-.idea/workspace.xml
-.idea/workspace.xml
-out/artifacts/ProjetHD_war_exploded/css/bootstrap-theme.css
-out/artifacts/ProjetHD_war_exploded/css/bootstrap.css
-.idea/workspace.xml
+.idea/*
+out/*
