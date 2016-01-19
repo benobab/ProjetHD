@@ -291,9 +291,11 @@
         btValidAddTrainingPlan.click(function () {
             $.post("/addTrainingPlan",
                     {
-                        title: tbTrainingPlanTitle.val(),
-                        description: tbTrainingPlanDesrciption.val(),
-                        domain: ddlTrainingPlanDomain.val()
+                        trainingPlan: {
+                            title: tbTrainingPlanTitle.val(),
+                            description: tbTrainingPlanDesrciption.val(),
+                            domain: ddlTrainingPlanDomain.val()
+                        }
                     }
             ).done(function (resp) {
                 document.location = "/ha-result-screen.html"
