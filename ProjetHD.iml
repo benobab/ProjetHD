@@ -13,7 +13,7 @@
     </facet>
     <facet type="google-app-engine" name="Google App Engine">
       <configuration>
-        <sdk-home-path>$USER_HOME$/Downloads/appengine-java-sdk-1.9.31</sdk-home-path>
+        <sdk-home-path>$MODULE_DIR$/../../appengine-java-sdk-1.9.31</sdk-home-path>
       </configuration>
     </facet>
   </component>
@@ -22,9 +22,38 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="1.7" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" scope="PROVIDED" name="AppEngine Dev 1.9.31" level="application_server_libraries" />
-    <orderEntry type="library" name="AppEngine API" level="project" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../appengine-java-sdk-1.9.31" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="file://$MODULE_DIR$/../../appengine-java-sdk-1.9.31/docs/endpoints/javadoc" />
+          <root url="file://$MODULE_DIR$/../../appengine-java-sdk-1.9.31/docs/javadoc" />
+          <root url="file://$MODULE_DIR$/../../appengine-java-sdk-1.9.31/docs/remoteapi/javadoc" />
+          <root url="file://$MODULE_DIR$/../../appengine-java-sdk-1.9.31/docs/spi/javadoc" />
+          <root url="file://$MODULE_DIR$/../../appengine-java-sdk-1.9.31/docs/testing/javadoc" />
+          <root url="file://$MODULE_DIR$/../../appengine-java-sdk-1.9.31/docs/tools/javadoc" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../appengine-java-sdk-1.9.31/demos/guestbook/src" />
+          <root url="file://$MODULE_DIR$/../../appengine-java-sdk-1.9.31/demos/helloorm2/src" />
+          <root url="file://$MODULE_DIR$/../../appengine-java-sdk-1.9.31/demos/helloorm/src" />
+          <root url="file://$MODULE_DIR$/../../appengine-java-sdk-1.9.31/demos/helloservers/src" />
+          <root url="file://$MODULE_DIR$/../../appengine-java-sdk-1.9.31/demos/helloxmpp/src" />
+          <root url="file://$MODULE_DIR$/../../appengine-java-sdk-1.9.31/demos/jdoexamples/src" />
+          <root url="file://$MODULE_DIR$/../../appengine-java-sdk-1.9.31/demos/mandelbrot/src" />
+          <root url="file://$MODULE_DIR$/../../appengine-java-sdk-1.9.31/demos/mediastore/src" />
+          <root url="file://$MODULE_DIR$/../../appengine-java-sdk-1.9.31/demos/new_project_template/src" />
+          <root url="file://$MODULE_DIR$/../../appengine-java-sdk-1.9.31/demos/shardedcounter/src" />
+          <root url="file://$MODULE_DIR$/../../appengine-java-sdk-1.9.31/demos/sticky/src" />
+          <root url="file://$MODULE_DIR$/../../appengine-java-sdk-1.9.31/demos/taskengine/src" />
+          <root url="file://$MODULE_DIR$/../../appengine-java-sdk-1.9.31/demos/taskqueueexamples/src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="library" name="Java EE 6-Java EE 6" level="project" />
   </component>
 </module>
